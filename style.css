@@ -1,0 +1,126 @@
+body {
+	background-color: #ECF0F1;
+
+}
+
+.btn-primary {
+
+	width: 200%;
+	height: 2000px;
+	position: absolute;
+	top: 5px; 
+	left: 0%;
+	padding-top: 100%;
+	font-size: 50px;
+
+
+}
+
+.btn-primari {
+	padding-top: 100%;
+	top: 0px ;
+	left: 200%;
+	position: absolute;
+	width: 200%;
+	height: 2000px;
+	font-size: 50px;
+}
+
+.logo1 {
+
+	height: 55px;
+	padding-top: 10px;
+	padding-left: 80%;
+	position: absolute;
+}
+
+.logo2 {
+
+
+	height: 55px;
+	padding-top: 10px;
+	padding-left: 71%;
+	position: absolute;
+}
+
+.navbar {
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+
+}
+
+.voiture {
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 10%;
+	height: 30%;
+}
+.capot {
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 37%;
+	height: 30%;
+}
+
+
+.pneu {	
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 64%;
+	height: 30%;
+}
+
+
+.late {
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 10%;
+	height: 30%;
+}
+
+
+.des {
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 37%;
+	height: 30%;
+}
+
+
+.pied {
+	width: 25%;
+	border-radius: 10px;
+	position: absolute;
+	left: 64%;
+	height: 30%;
+
+}
+
+
+.angle {
+
+}
+
+
+h1 {
+	margin-left: 150px;
+
+}
+
+.text {
+	margin-left: 50px;
+	margin-right: 40px;
+
+}
+
+footer {
+	margin-left: 43.5%;
+}
+
+
+
