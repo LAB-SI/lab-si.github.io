@@ -1,55 +1,125 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site web du LAB-SI du lycée de Parentis.">
+    <meta name="author" content="Valentin Charbonnier TS4">
+    <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
 
-<html>
+    <title>LAB-SI Lycée Saint-Exupery</title>
 
-<head>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<meta charset="utf-8">
-	<title>Lab SI</title>
-    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="dist/css/flat-ui.css" rel="stylesheet">
-    <link href="docs/assets/css/demo.css" rel="stylesheet">
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top.css" rel="stylesheet">
+	  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse mb-4">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="w3images/logo.png" style="width:75px"> LAB-SI Lycée Saint-Exupery</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pages/voiture.html">Voiture</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="pages/drone.html">Drone</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="pages/rwifi.html">RWifi Controller</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+		<div class="container">
+	  <h2>Projets</h2>
+	  <p>Vous pouvez ici voir les différents projets du LAB-SI, comprenant une voiture participant au concours EDUCECO, un drône réalisé par les élèves et d'autres projets.</p>
+	  <div class="row">
+		<div class="col-md-4">
+		<div class="thumbnail">
+			<a href="pages/voiture.html">
+			<div class="card">
+			  <img class="img-fluid" src="w3images/voiturehome.jpg" alt="Voiture EDUCECO">
+			  <div class="card-block">
+				<a href="pages/voiture.html" class="card-link">Voiture EDUCECO</a>
+			  </div>
+			</div>
+			</a>
+		</div>
+		<br></br>
+		</div>
+		<br></br>
+		<div class="col-md-4">
+		<div class="thumbnail">
+			<a href="">
+			<div class="card">
+			  <img class="img-fluid" src="w3images/dronehome.jpg" alt="Drone">
+			  <div class="card-block">
+				<a href="" class="card-link">Drone</a>
+			  </div>
+			</div>
+			</a>
+		</div>
+		<br></br>
+		</div>
+		<br></br>
+		<div class="col-md-4">
+		<div class="thumbnail">
+		<a href="pages/rwifi.html">
+			<div class="card">
+			  <img class="img-fluid" src="w3images/rwificontroller.jpg" alt="RWifi Controller">
+			  <div class="card-block">
+				<a href="pages/rwifi.html" class="card-link">RWifi Controller</a>
+			  </div>
+			</div>
+			</a>
+		</div>
+		<br></br>
+		</div>
+		</div>
+		<br>
+		<br>
+	</div>
+
+    <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="left-container">
+          <span class="text-muted">Site fait par <a href="https://valentinbreiz.github.io/">Valentin Charbonnier</a>.</span>
+        </div>
+        <div class="right-container">
+          <a href="http://www.citescolaireparentis.fr/"><img src="w3images/logo-parentis.png" alt="Lycée Saint-Exupery" width="100px"></a>
+          <a href="https://www.nouvelle-aquitaine.fr/"><img src="w3images/nouvelleaquitaine.png" alt="Nouvelle Aquitaine" width="100px"></a>
+      	</div>
+  	  </div>
+    </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../../code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.html"><\/script>')</script>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 
-</head>
-
-<body>
-
-          <div class="col-xs-3">
-          <a href="drone.html" class="btn btn-block btn-lg btn-primary">Drone</a>
-          <a href="voiture.html" class="btn btn-block btn-lg btn-primary btn-primari">Voiture</a>
-          </div>
-
-      <div class="row demo-row">
-        <div class="col-xs-12">
-          <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="index.html">LAB SI</a>
-            </div>
-
-<img src="nalogo.gif" class="logo1" alt="LOGO DE LA NOUVELLE AQUITAINE">
-<img src="logo-parentis.jpg" class="logo2" alt="LOGO ST EXUPERY">
-
-            <div class="collapse navbar-collapse" id="navbar-collapse-01">
-              <ul class="nav navbar-nav navbar-left"></ul>
-                  </span>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </nav>
-          <img src="voiture2" class="voiture2">
-</div>
-
-
-
-
-
-</body>
+  </body>
 
 </html>
